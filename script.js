@@ -2,13 +2,14 @@
 const botões = document.querySelectorAll('button');
 
 // para cada botão podemos curtir
-botoes.forEach(botão => {
+botoes.forEach(botao => {
     let curtiu = false;
 
      botao.addEventListener("click", curtir)
 
-function cutir(){
+function curtir(){
     let num = botao.querySelector('span');
-}
+
    num.textContent++; 
+}
 });
